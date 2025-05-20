@@ -1,0 +1,10 @@
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.4.4  # Use the latest version
+    hooks:
+      - id: ruff
+        args: [--fix]
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.18.2  # Use the latest version
+    hooks:
+      - id: gitleaks 
