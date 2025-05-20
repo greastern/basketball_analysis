@@ -5,7 +5,7 @@ import torch
 device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
 
 # Load the YOLO model
-model = YOLO("yolo11x.pt").to(device)
+model = YOLO("models/player_detector.pt")
 
 # Perform prediction
 results = model.predict("input_videos/video_1.mp4", save=True, device=device)

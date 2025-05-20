@@ -8,3 +8,34 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Environment variables and secrets
+.env
+*.env
+.env.*
+secrets.json
+config.json
+
+# Large model files
+*.pt
+*.pth
+*.weights
+*.h5
+
+# Dataset and media files
+input_videos/
+Basketball-Players-25/
+runs/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
