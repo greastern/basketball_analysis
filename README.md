@@ -28,14 +28,13 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
     
     > **Why only `uv sync`?**
     > Unlike traditional Python workflows that require multiple steps (creating a venv, activating it, running pip install, etc.), `uv sync` does everything in one fast, reproducible step. You do **not** need to run `pip install` or `uv add ...` to install dependencies as a user—`uv sync` handles it all.
+    >
+    > For more on uv, see the [uv documentation](https://docs.astral.sh/uv/).
 
 3. **Create a `.env` file in the project root and add your Roboflow API key:**
     ```
     ROBOFLOW_API_KEY=your_api_key_here
     ```
-
-> For more on uv, see the [uv documentation](https://docs.astral.sh/uv/).
-
 ---
 
 ## Roboflow API Key
